@@ -1,0 +1,133 @@
+
+    
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    
+
+
+.card {
+  width: 500px;
+  height: 300px;
+  background: #E09F3E;
+  border-radius: 10px;
+  /*display: flex;
+  justify-content: space-between;*/
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  margin: 0 auto;
+  padding: 20px;
+  border-bottom: 20px solid #540B0E;
+  text-align: left;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  
+
+
+}
+
+.avatar {
+    border-radius: 150px;
+    width: 150px;
+    height: 180px; 
+    margin-left: 20px;
+    
+  }
+  
+
+
+.name {
+  font-size: 21px;
+  color: #000000;
+  margin-bottom: 0;
+  font-weight: 900px;
+  margin-left: 20px;
+}
+.title {
+  font-size: 18px;
+  color: #9E2A2B;
+  font-style: italic;
+  margin-top: 0;
+  margin-left: 20px;
+  
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #335C67;
+  
+}
+.contact-info .icon{
+  margin-right: 1px;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.curve-bg {
+  content: '';
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  width: 200px;
+  height: 200px;
+  background: rgba(133, 5, 5, 0.315);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.curve-bg2 {
+  content: '';
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  width: 230px;
+  height: 230px;
+  background: rgba(133, 5, 5, 0.315);
+  border-radius: 50%;
+  pointer-events: none;
+}
+.curve-bg3 {
+  content: '';
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  width: 100px;
+  height: 100px;
+  background: rgba(133, 5, 5, 0.315);
+  border-radius: 50%;
+  pointer-events: none;
+}
+.curve-bg4 {
+  content: '';
+  position: absolute;
+  bottom: -40px;
+  right: -40px;
+  width: 160px;
+  height: 160px;
+  background: rgba(133, 5, 5, 0.315);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+
+
+
+
+
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
